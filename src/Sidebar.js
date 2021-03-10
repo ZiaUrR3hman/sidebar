@@ -1,20 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import { FaTimes } from 'react-icons/fa';
-import {
-	HiOutlineSearch,
-	HiOutlineTicket,
-	HiTicket,
-	HiX,
-} from 'react-icons/hi';
-import { MdClose, MdDashboard, MdSettings } from 'react-icons/md';
-import { social, links } from './data';
+import { HiOutlineSearch, HiTicket, HiX } from 'react-icons/hi';
+import { MdSettings } from 'react-icons/md';
+import { links } from './data';
+import { useGlobalContext } from './context';
 
 const Sidebar = () => {
+	const { isSidebarOpen, closeSidebar } = useGlobalContext();
+	console.log(isSidebarOpen);
 	return (
-		<div className="fixed top-0 ">
+		<div
+			className={`transition-all  duration-500  fixed top-0 ${
+				isSidebarOpen ? 'left-0' : '-left-64'
+			}`}
+		>
 			<div className="flex h-screen overflow-y-auto flex-col bg-white  w-64 px-4 py-8 border-r min-h-screen relative">
-				<button className="absolute top-1 right-1  text-gray-600 w-8 h-8 rounded-full flex items-center justify-center active:bg-gray-300 focus:outline-none ml-6 hover:bg-gray-200 hover:text-gray-800">
+				<button
+					onClick={closeSidebar}
+					className="absolute top-1 right-1  text-gray-600 w-8 h-8 rounded-full flex items-center justify-center active:bg-gray-300 focus:outline-none ml-6 hover:bg-gray-200 hover:text-gray-800"
+				>
 					<HiX className="w-5 h-5" />
 				</button>
 				<h2 className="text-3xl font-semibold text-gray-800">Brand</h2>
