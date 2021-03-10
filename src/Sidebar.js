@@ -7,7 +7,7 @@ import { social, links } from './data';
 
 const Sidebar = () => {
 	return (
-		<div className="flex flex-col bg-white  w-64 px-4 py-8 border-r">
+		<div className="flex flex-col bg-white  w-64 px-4 py-8 border-r min-h-screen">
 			<h2 className="text-3xl font-semibold text-gray-800">Brand</h2>
 			<div className="relative mt-6">
 				<label
@@ -23,7 +23,7 @@ const Sidebar = () => {
 					className="w-full border border-gray-300 hover:border-gray-400 pl-10 py-3 pr-4 text-gray-700 rounded-md focus:outline-none focus:ring focus:border-blue-500"
 				/>
 			</div>
-			<div className="flex flex-col mt-6">
+			<div className="flex flex-col mt-6  justify-between flex-1">
 				<nav className="text">
 					{links.map((link, index) => {
 						const { id, url, text, icon } = link;
@@ -62,6 +62,14 @@ const Sidebar = () => {
 						<span className="mx-4 font-medium">Settings</span>
 					</a>
 				</nav>
+				<div className="flex items-center px-4 -mx-2 mt-5">
+					<img
+						src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+						alt="avatar"
+						className="h-9 w-9 mx-2 object-center object-cover rounded-full"
+					/>
+					<h4 className="mx-2 font-medium text-gray-800">John Doe</h4>
+				</div>
 			</div>
 		</div>
 	);
