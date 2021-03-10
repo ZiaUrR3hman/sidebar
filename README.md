@@ -41,5 +41,5 @@ This project is under MIT license.
 
 Made with 💙 by Zia :wave: [Get in touch!](https://github.com/ZiaUrR3hman)
 
-[nodejs]: https://nodejs.org/
-[vc]: https://code.visualstudio.com/
+[nodejs]: (https://nodejs.org/)
+[vc]: (https://code.visualstudio.com/)
