@@ -6,7 +6,7 @@ import { useGlobalContext } from './context';
 
 const Sidebar = () => {
 	const { isSidebarOpen, closeSidebar } = useGlobalContext();
-	console.log(isSidebarOpen);
+
 	return (
 		<div
 			className={`transition-all  duration-500  fixed top-0 ${
@@ -20,7 +20,9 @@ const Sidebar = () => {
 				>
 					<HiX className="w-5 h-5" />
 				</button>
-				<h2 className="text-3xl font-semibold text-gray-800">Brand</h2>
+				<h2 className="text-3xl font-semibold text-gray-800">
+					ZRF <span className="text-indigo-500 ml-1">Tech</span>
+				</h2>
 				<div className="relative mt-6">
 					<label
 						className="absolute inset-y-0 left-0 pl-3 flex items-center "
@@ -82,7 +84,7 @@ const Sidebar = () => {
 							alt="avatar"
 							className="h-9 w-9 mx-2 object-center object-cover rounded-full"
 						/>
-						<h4 className="mx-2 font-medium text-gray-800">
+						<h4 className="mx-2 font-medium text-gray-800 hover:underline cursor-pointer">
 							John Doe
 						</h4>
 					</div>

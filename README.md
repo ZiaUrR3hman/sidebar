@@ -1,8 +1,8 @@
-# navbar
+# sidebar
 
 ## Demo
 
-[demo](https://ziaurr3hman.github.io/navbar/)
+[demo](https://ziaurr3hman.github.io/sidebar/)
 
 ## :information_source: Getting started
 
@@ -15,9 +15,9 @@
 
 ```bash
 # Clone this repo
-$ git clone https://github.com/ZiaUrR3hman/navbar.git
+$ git clone https://github.com/ZiaUrR3hman/sidebar.git
 # Access this repo
-$ cd navbar
+$ cd sidebar
 # Install dependencies
 $ npm install
 # Run the application
