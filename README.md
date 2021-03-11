@@ -4,9 +4,8 @@
 
 [demo](https://ziaurr3hman.github.io/sidebar/)
 
-## :information_source: Getting started
 
-### Requirements
+### :information_source: Requirements
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
