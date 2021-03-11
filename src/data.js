@@ -15,31 +15,31 @@ import { HiDocument } from 'react-icons/hi';
 export const links = [
 	{
 		id: 1,
-		url: '/',
+		url: '/color-shade-generator',
 		text: 'home',
 		icon: <FaHome className="w-5 h-5" />,
 	},
 	{
 		id: 2,
-		url: '/team',
+		url: '/grocery-bud',
 		text: 'team',
 		icon: <FaUserFriends className="w-5 h-5" />,
 	},
 	{
 		id: 3,
-		url: '/projects',
+		url: '/navbar',
 		text: 'projects',
 		icon: <FaFolderOpen className="w-5 h-5" />,
 	},
 	{
 		id: 4,
-		url: '/calendar',
+		url: '/sidebar',
 		text: 'calendar',
 		icon: <FaCalendarAlt className="w-5 h-5" />,
 	},
 	{
 		id: 5,
-		url: '/documents',
+		url: '/sidebar',
 		text: 'documents',
 		icon: <HiDocument className="w-5 h-5" />,
 	},

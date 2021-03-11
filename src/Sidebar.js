@@ -64,14 +64,14 @@ const Sidebar = () => {
 						})}
 						<hr className="my-6" />
 						<a
-							href="/"
+							href="/color-shade-generator"
 							className="flex items-center px-4 py-2 mt-5 rounded-md text-gray-600 hover:text-gray-700 hover:bg-gray-200 transition-colors transform"
 						>
 							<HiTicket className="w-5 h-5" />
 							<span className="mx-4 font-medium">Ticket</span>
 						</a>
 						<a
-							href="/"
+							href="/color-shade-generator"
 							className="flex items-center px-4 py-2 mt-5 rounded-md text-gray-600 hover:text-gray-700 hover:bg-gray-200 transition-colors transform"
 						>
 							<MdSettings className="w-5 h-5" />
