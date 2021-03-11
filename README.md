@@ -1,16 +1,13 @@
 # sidebar
 
-## Demo
-
 [demo](https://ziaurr3hman.github.io/sidebar/)
 
-
-### :information_source: Requirements
+## :information_source: Requirements
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
-### Clone the project and access the folder
+## Clone the project and access the folder
 
 ```bash
 # Clone this repo
