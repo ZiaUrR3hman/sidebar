@@ -7,7 +7,7 @@
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
-## Clone the project and access the folder
+## :computer: Clone
 
 ```bash
 # Clone this repo
